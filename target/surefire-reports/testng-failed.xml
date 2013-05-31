@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [croaking Application Test Suite]" parallel="false">
+  <test name="Unit Tests(failed)" preserve-order="false">
+    <classes>
+      <class name="de.webtech2.croaking.SecurityFilterChainUnitTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class>
+      <class name="de.webtech2.croaking.TapestrySecurityIntegrationTest">
+        <methods>
+          <include name="testRequiresAuthenticationDeny"/>
+          <include name="testInterceptComponentMethodDeny"/>
+          <include name="testHasAllRolesComponentSuccessAlternateDivisor"/>
+          <include name="testUserFilterAccess"/>
+          <include name="testUserComponentNotLoggedIn"/>
+          <include name="testRequiresRoleAccess"/>
+          <include name="testAuthcFilterAccess"/>
+          <include name="testInterceptComponentClassAccess"/>
+          <include name="testIfGrantedAnyRolesComponentFailed"/>
+          <include name="testIfGrantedAnyPermissionsComponentFailed"/>
+          <include name="testRequiresRoleDeny"/>
+          <include name="testRolesFilterDeny"/>
+          <include name="testInterceptServiceMethodAccess"/>
+          <include name="testRequiresRole"/>
+          <include name="testHasAllRolesComponentSuccess"/>
+          <include name="testAnonFilterAccess"/>
+          <include name="testNoContextPathHandling"/>
+          <include name="startContainer"/>
+          <include name="testIfGrantedAnyRolesComponentSuccessAlternateDivisor"/>
+          <include name="testHasPermissionComponentFailed"/>
+          <include name="testServletDecoration"/>
+          <include name="testIfGrantedAllRolesComponentSuccess"/>
+          <include name="testLogout"/>
+          <include name="testIfGrantedAnyRoleComponentFailedAlternateDivisor"/>
+          <include name="testPermsFilterDeny"/>
+          <include name="testUserComponentLoggedIn"/>
+          <include name="testLocalizedUserFilterDeny"/>
+          <include name="testHasAllPermissionsComponentFailed"/>
+          <include name="testHasAnyRolesComponentFailed"/>
+          <include name="testIfGrantedAllRolesComponentSuccessAlternateDivisor"/>
+          <include name="testInterceptServiceClassDeny"/>
+          <include name="testComponentMethodInterceptorRequiresPermissionsILACSuccess"/>
+          <include name="testPort8180Filter"/>
+          <include name="testRequiresAuthenticationAccess"/>
+          <include name="testIfGrantedAllRolesComponentFailedAlternateDivisor"/>
+          <include name="testNotFoundRule"/>
+          <include name="testRolesFilterAccess"/>
+          <include name="testGuestComponentLoggedIn"/>
+          <include name="testHasPermissionComponentSuccess"/>
+          <include name="testAuthenticatedComponentNotLoggedIn"/>
+          <include name="testHasRoleComponentSuccess"/>
+          <include name="testRequiresUserDeny"/>
+          <include name="testAuthcFilterDeny"/>
+          <include name="testHasAllRolesComponentFailedAlternateDivisor"/>
+          <include name="testHasAnyPermissionsComponentFailed"/>
+          <include name="testHasAllRolesComponentFailed"/>
+          <include name="testRequiresPermissionILACSuccessWithArgument"/>
+          <include name="testPermsRequiresPermissionsILACViewOnPageClass"/>
+          <include name="testInterceptComponentMethodAccess"/>
+          <include name="testSaveRequestAnnotationHandler"/>
+          <include name="testIfGrantedAllRolesComponentFailed"/>
+          <include name="testLoginClick"/>
+          <include name="testUserFilterDeny"/>
+          <include name="testHasAnyRolesComponentSuccessAlternateDivisor"/>
+          <include name="testPermsFilterAccess"/>
+          <include name="testIfGrantedAnyRolesComponentSuccess"/>
+          <include name="testComponentMethodInterceptorRequiresPermissionsILACUnauthorized"/>
+          <include name="testHasAnyRoleComponentFailedAlternateDivisor"/>
+          <include name="testRequiresPermissionAccess"/>
+          <include name="testRequiresPermissionILACUnauthorizedWithArgument"/>
+          <include name="testUserFilterWithAjaxDeny"/>
+          <include name="testContributedFilterChainDefinitionNotLoggedIn"/>
+          <include name="testInterceptComponentClassDeny"/>
+          <include name="testHasAnyPermissionsComponentSuccess"/>
+          <include name="testHasRoleComponentFailed"/>
+          <include name="testHasAnyRolesComponentSuccess"/>
+          <include name="testNotAuthenticatedComponentLoggedIn"/>
+          <include name="testLogin"/>
+          <include name="testHasAllPermissionsComponentSuccess"/>
+          <include name="testInterceptServiceMethodDeny"/>
+          <include name="testContributedFilterChainDefinition"/>
+          <include name="testIfGrantedAnyPermissionsComponentSuccess"/>
+          <include name="testRequiresUserAccess"/>
+          <include name="testRequiresGuestAccess"/>
+          <include name="testPermsRequiresPermissionsILACEditOnPageClass"/>
+          <include name="testIfGrantedAllPermissionsComponentFailed"/>
+          <include name="testRequiresGuestDeny"/>
+          <include name="testRequiresPermissionDeny"/>
+          <include name="testGuestComponentNotLoggedIn"/>
+          <include name="testRequiresPermissionILACSuccessWithoutArguments"/>
+          <include name="testAuthenticatedComponentLoggedIn"/>
+          <include name="testIfGrantedAllPermissionsComponentSuccess"/>
+          <include name="testInterceptComponentMethodWithAjaxDeny"/>
+          <include name="testInterceptServiceClassAccess"/>
+          <include name="testNotAuthenticatedComponentNotLoggedIn"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
